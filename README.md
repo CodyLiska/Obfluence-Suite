@@ -1,27 +1,54 @@
-# Development Wiki
+# 🧩 Development Wiki Templates
 
-This Obsidian vault serves as a structured, scalable documentation system for product, architecture, operations, and agile team processes.
-
-## ✅ What’s Inside
-
-- `DEVELOPMENT_WIKI/` – The primary documentation space
-  - **00_Product** – Feature specs, backlog items, and roadmap entries
-  - **01_Architecture** – Decision records, diagrams, and module design
-  - **02_Release Notes** – Deployment changelogs and release history
-  - **03_Operations** – CI/CD, monitoring, readiness, infrastructure
-  - **04_– 06_** – Working Sessions, meetings, Scrum foundations
-  - **07_– 08_** – Knowledge base and business questions
-
-- `Development Wiki Templates/` – Pre-built templates for every documentation category
-  - Dynamically indexed using Dataview
-  - Templater-ready with metadata support
-
-## 🔧 Usage
-
-- All indexes are auto-generated using [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and styled with collapsible callouts or card layouts.
-- Templates use Templater syntax for reusable notes.
-- Folder prefixes (`00_`, `01_`, etc.) are used for navigation order.
+This directory contains standardized templates organized by documentation category. Each folder corresponds to a core area of your software project documentation, and includes Templater-ready markdown files that help ensure consistency, structure, and speed.
 
 ---
 
-> Built for clarity, repeatability, and scaling across engineering teams.
+## 📁 Folder Overview
+
+Each numbered folder corresponds to a major section in the documentation system:
+
+- `00_Product` – Feature specs, backlog items, roadmap planning
+- `01_Architecture` – Diagrams, decision logs, system components
+- `02_Release Notes` – Changelogs and deployment logs
+- `03_Operations` – CI/CD, infrastructure, runbooks, readiness
+- `05_Meeting Notes` – Retrospectives, stakeholder syncs, team meetings
+- `06_Scrum Foundations` – DoD, ceremonies, team goals
+- `07_Knowledge Base` – Onboarding, data maps, schemas
+
+Each folder contains:
+- Reusable markdown templates
+- A local `_index.md` that lists and describes available templates
+- Metadata in frontmatter to support filtering (e.g., `status`, `owner`, `description`)
+
+---
+
+## 📊 Visual Overview
+
+- [Folder Structure Chart (PNG)](README_TEMPLATES_Folder_Chart.png)
+- [Mind Map (Markdown)](README_Mindmap.md)
+
+---
+
+## 🛠 Template Metadata Guidelines
+
+Each template should start with frontmatter like:
+
+```yaml
+---
+description: Short explanation of the template's purpose
+status: draft | stable
+owner: "@yourname"
+tags: [template, area]
+---
+```
+
+Use consistent tags like `product`, `infra`, `scrum`, `release`, etc.
+
+---
+
+## ✅ Best Practices
+
+- Use `_index.md` in each folder to preview templates dynamically.
+- Maintain a central dashboard for high-level access and search.
+- Include live Templater prompts for manual template use when applicable.
