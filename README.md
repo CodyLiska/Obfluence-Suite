@@ -26,7 +26,7 @@ Each folder contains:
 ## 📊 Visual Overview
 
 - [Folder Structure Chart (PNG)](README_TEMPLATES_Folder_Chart.png)
-- [Mind Map (Markdown)](README_Mindmap.md)
+- [Mind Map (Markdown)](README_TEMPLATES_Mindmap.md)
 
 ---
 
