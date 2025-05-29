@@ -1,6 +1,6 @@
 # HomelabFluence Obsidian Vault – Recommended Plugin Setup
 
-This guide outlines the best plugins and configuration for enhancing your Home Lab Knowledge Base using Obsidian.
+This guide outlines the best plugins and configuration for enhancing your Obfluence Home Lab using Obsidian.
 
 ---
 
