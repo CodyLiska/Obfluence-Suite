@@ -18,9 +18,11 @@ Each numbered folder corresponds to a major section in the documentation system:
 - `01_Architecture` – Diagrams, decision logs, system components
 - `02_Release Notes` – Changelogs and deployment logs
 - `03_Operations` – CI/CD, infrastructure, runbooks, readiness
+- `04_Working Session Minutes` - Team working session meeting notes
 - `05_Meeting Notes` – Retrospectives, stakeholder syncs, team meetings
 - `06_Scrum Foundations` – DoD, ceremonies, team goals
 - `07_Knowledge Base` – Onboarding, data maps, schemas
+- `08_Open Business Question Log` – Questions, answers, and feedback
 
 Each folder contains:
 

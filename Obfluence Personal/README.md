@@ -43,4 +43,4 @@ This vault is designed to help you organize and manage every aspect of your pers
 4. Encrypt sensitive content with Obsidian Encrypt.
 
 ## 🧩 Templates
-All templates are stored in the `/templates` folder and organized by category and subfolder name to match the vault structure.
+All templates are stored in the `_templates` folder and organized by category and subfolder name to match the vault structure.
