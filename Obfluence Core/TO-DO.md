@@ -13,6 +13,7 @@
 - [x] Development Wiki Templates index files in root and subfolders need updated layouts
 - [x] zip up run thru GPT asking to look over the files, make any helpful suggestions, produce an updated readme && a project dashboard
 	- [x] Add this to the TODO section in README - `Development Wiki Templates index files in root and subfolders need updated layouts`
+- [ ] index files need METADATA added
 - [ ] upload to github
 - [ ] CONTRATS YOU'RE DONE!
 
