@@ -1,0 +1,694 @@
+{
+  "choices": [
+    {
+      "name": "New Devices Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/02_Hardware/Devices.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/02_Hardware/Devices",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Accessories Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/02_Hardware/Accessories.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/02_Hardware/Accessories",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Network Gear Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/02_Hardware/Network_Gear.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/02_Hardware/Network_Gear",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Os Images Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/03_Software/OS_Images.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/03_Software/OS_Images",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Tools And Utilities Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/03_Software/Tools_And_Utilities.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/03_Software/Tools_And_Utilities",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Platform Services Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/03_Software/Platform_Services.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/03_Software/Platform_Services",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Docker Containers Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/04_Services/Docker_Containers.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/04_Services/Docker_Containers",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Bare Metal Services Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/04_Services/Bare_Metal_Services.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/04_Services/Bare_Metal_Services",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Reverse Proxy Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/04_Services/Reverse_Proxy.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/04_Services/Reverse_Proxy",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Ip Management Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/05_Network/IP_Management.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/05_Network/IP_Management",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Vlans Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/05_Network/VLANs.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/05_Network/VLANs",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Firewall Rules Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/05_Network/Firewall_Rules.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/05_Network/Firewall_Rules",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Web Projects Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/06_Dev_Environments/Web_Projects.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/06_Dev_Environments/Web_Projects",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Apis Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/06_Dev_Environments/APIs.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/06_Dev_Environments/APIs",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Databases Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/06_Dev_Environments/Databases.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/06_Dev_Environments/Databases",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Courses Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/07_Learning/Courses.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/07_Learning/Courses",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Labs Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/07_Learning/Labs.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/07_Learning/Labs",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Notes Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/07_Learning/Notes.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/07_Learning/Notes",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Cron Jobs Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/08_Automation/Cron_Jobs.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/08_Automation/Cron_Jobs",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Scripts Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/08_Automation/Scripts.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/08_Automation/Scripts",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Webhooks Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/08_Automation/Webhooks.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/08_Automation/Webhooks",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Hardening Checklists Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/09_Security/Hardening_Checklists.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/09_Security/Hardening_Checklists",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Audit Logs Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/09_Security/Audit_Logs.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/09_Security/Audit_Logs",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Threat Models Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/09_Security/Threat_Models.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/09_Security/Threat_Models",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Grafana Dashboards Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/10_Monitoring/Grafana_Dashboards.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/10_Monitoring/Grafana_Dashboards",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Alerts Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/10_Monitoring/Alerts.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/10_Monitoring/Alerts",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Logs Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/10_Monitoring/Logs.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/10_Monitoring/Logs",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New System Errors Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/11_Troubleshooting/System_Errors.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/11_Troubleshooting/System_Errors",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Networking Issues Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/11_Troubleshooting/Networking_Issues.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/11_Troubleshooting/Networking_Issues",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    },
+    {
+      "name": "New Upgrade Failures Note",
+      "type": "template",
+      "template_path": ".obsidian/templates/HomeLab/11_Troubleshooting/Upgrade_Failures.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "HOME_LAB_KB/11_Troubleshooting/Upgrade_Failures",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "system": "",
+        "description": "",
+        "owner": "",
+        "location": "",
+        "ip": "",
+        "mac": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "choices": [
+    {
+      "name": "New Weekly Habit Tracker",
+      "type": "template",
+      "template_path": "templates/07_Goals_Habit_Weekly_Tracker.md",
+      "file_name_format": "Habit Tracker - {{DATE:GGGG-[W]WW}}",
+      "file_location": "07_Goals",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "week": "{{DATE:GGGG-[W]WW}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "yearly-goals",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 120,
+      "text": "## Yearly Goals\n- [[07_Goals/Yearly]]"
+    },
+    {
+      "id": "quarterly-goals",
+      "type": "text",
+      "x": 420,
+      "y": 0,
+      "width": 400,
+      "height": 120,
+      "text": "## Quarterly\n- [[07_Goals/Quarterly]]"
+    },
+    {
+      "id": "habit-tracking",
+      "type": "text",
+      "x": 0,
+      "y": 140,
+      "width": 400,
+      "height": 120,
+      "text": "## Habit Tracker\n- [[07_Goals/Habit_Tracker]]"
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "choices": [
+    {
+      "name": "New Daily Note",
+      "type": "template",
+      "template_path": "templates/01_Journal_Daily.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "01_Journal/Daily",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Weekly Note",
+      "type": "template",
+      "template_path": "templates/01_Journal_Weekly.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "01_Journal/Weekly",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Monthly Note",
+      "type": "template",
+      "template_path": "templates/01_Journal_Monthly.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "01_Journal/Monthly",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Fitness Note",
+      "type": "template",
+      "template_path": "templates/02_Health_Fitness.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "02_Health/Fitness",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Nutrition Note",
+      "type": "template",
+      "template_path": "templates/02_Health_Nutrition.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "02_Health/Nutrition",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Medical Note",
+      "type": "template",
+      "template_path": "templates/02_Health_Medical.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "02_Health/Medical",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Budget Note",
+      "type": "template",
+      "template_path": "templates/03_Finances_Budget.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "03_Finances/Budget",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Expenses Note",
+      "type": "template",
+      "template_path": "templates/03_Finances_Expenses.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "03_Finances/Expenses",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Investments Note",
+      "type": "template",
+      "template_path": "templates/03_Finances_Investments.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "03_Finances/Investments",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Personal Projects Note",
+      "type": "template",
+      "template_path": "templates/04_Projects_Personal_Projects.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "04_Projects/Personal_Projects",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Home Improvement Note",
+      "type": "template",
+      "template_path": "templates/04_Projects_Home_Improvement.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "04_Projects/Home_Improvement",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Hobbies Note",
+      "type": "template",
+      "template_path": "templates/04_Projects_Hobbies.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "04_Projects/Hobbies",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Trips Note",
+      "type": "template",
+      "template_path": "templates/05_Travel_Trips.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "05_Travel/Trips",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Packing Lists Note",
+      "type": "template",
+      "template_path": "templates/05_Travel_Packing_Lists.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "05_Travel/Packing_Lists",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Itineraries Note",
+      "type": "template",
+      "template_path": "templates/05_Travel_Itineraries.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "05_Travel/Itineraries",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Family Note",
+      "type": "template",
+      "template_path": "templates/06_People_Family.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "06_People/Family",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Friends Note",
+      "type": "template",
+      "template_path": "templates/06_People_Friends.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "06_People/Friends",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Contacts Note",
+      "type": "template",
+      "template_path": "templates/06_People_Contacts.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "06_People/Contacts",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Yearly Note",
+      "type": "template",
+      "template_path": "templates/07_Goals_Yearly.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "07_Goals/Yearly",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Quarterly Note",
+      "type": "template",
+      "template_path": "templates/07_Goals_Quarterly.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "07_Goals/Quarterly",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Habits Note",
+      "type": "template",
+      "template_path": "templates/07_Goals_Habits.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "07_Goals/Habits",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Documents Note",
+      "type": "template",
+      "template_path": "templates/08_Records_Documents.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "08_Records/Documents",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Warranties Note",
+      "type": "template",
+      "template_path": "templates/08_Records_Warranties.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "08_Records/Warranties",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Insurance Note",
+      "type": "template",
+      "template_path": "templates/08_Records_Insurance.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "08_Records/Insurance",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Courses Note",
+      "type": "template",
+      "template_path": "templates/09_Education_Courses.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "09_Education/Courses",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Reading Note",
+      "type": "template",
+      "template_path": "templates/09_Education_Reading.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "09_Education/Reading",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Notes Note",
+      "type": "template",
+      "template_path": "templates/09_Education_Notes.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "09_Education/Notes",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Ideas Note",
+      "type": "template",
+      "template_path": "templates/10_Misc_Ideas.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "10_Misc/Ideas",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Dreams Note",
+      "type": "template",
+      "template_path": "templates/10_Misc_Dreams.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "10_Misc/Dreams",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    },
+    {
+      "name": "New Bucket List Note",
+      "type": "template",
+      "template_path": "templates/10_Misc_Bucket_List.md",
+      "file_name_format": "{{DATE:YYYY-MM-DD}} - {{VALUE:title}}",
+      "file_location": "10_Misc/Bucket_List",
+      "options": {
+        "open": true,
+        "append": false,
+        "silent": false,
+        "create_in_current_folder": false,
+        "capture_format": true
+      },
+      "format": {
+        "title": "",
+        "description": "",
+        "related": ""
+      }
+    }
+  ]
+}

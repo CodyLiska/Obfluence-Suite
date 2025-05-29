@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "journal-today",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 120,
+      "text": "## Today\n- [[01_Journal/Daily]]"
+    },
+    {
+      "id": "weekly-review",
+      "type": "text",
+      "x": 420,
+      "y": 0,
+      "width": 400,
+      "height": 120,
+      "text": "## Weekly Review\n- [[01_Journal/Weekly]]"
+    },
+    {
+      "id": "monthly-review",
+      "type": "text",
+      "x": 0,
+      "y": 140,
+      "width": 400,
+      "height": 120,
+      "text": "## Monthly\n- [[01_Journal/Monthly]]"
+    }
+  ]
+}
