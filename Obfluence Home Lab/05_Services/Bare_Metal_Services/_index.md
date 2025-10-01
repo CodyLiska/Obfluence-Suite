@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "04_Services/Bare_Metal_Services"
+from "05_Services/Bare_Metal_Services"
 where file.name != "_index"
 ```

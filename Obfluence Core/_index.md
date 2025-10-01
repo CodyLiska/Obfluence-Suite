@@ -1,10 +1,9 @@
-
-# 📚 DEVELOPMENT_WIKI Index
+# Obfluence Core Index
 
 Centralized index of all documentation, templates, and knowledge areas organized by product, architecture, operations, and team processes.
 
 ```dataviewjs
-const root = "DEVELOPMENT_WIKI";
+const root = "Obfluence Core";
 const pages = dv.pages()
   .where(p => p.file.path.startsWith(root + "/") && !["_index", "index"].includes(p.file.name))
   .array();
@@ -33,14 +32,14 @@ function buildTree(pages) {
 function renderTree(tree, depth = 1) {
   for (const key of Object.keys(tree).filter(k => k !== "files").sort()) {
   const clean = key.replace(/[_-]/g, " ");
-  //dv.header(depth + 1, `📁 ${clean}`);
+  //dv.header(depth + 1, `folder ${clean}`);
   //const indent = "&nbsp;&nbsp;&nbsp;&nbsp;".repeat(depth - 1);
-  //const header = `${"###".padEnd(depth + 2, "#")} 📁 ${clean}`;
-  //dv.header(depth + 1, `📁 ${clean}`);
+  //const header = `${"###".padEnd(depth + 2, "#")} folder ${clean}`;
+  //dv.header(depth + 1, `folder ${clean}`);
 
   const folderHeader = dv.container.createEl("h" + (depth + 1));
   folderHeader.setAttr("style", `margin-left: ${depth * 20}px;`);
-  folderHeader.textContent = `📁 ${clean}`;
+  folderHeader.textContent = `folder ${clean}`;
 
   renderTree(tree[key], depth + 1);
 }

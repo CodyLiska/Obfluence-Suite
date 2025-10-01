@@ -4,14 +4,16 @@ This guide outlines the best plugins and configuration for enhancing your Obflue
 
 ---
 
-## 🧠 Core Enhancements
+## Core Enhancements
 
-### ✅ Templater
+### Templater
+
 - Use dynamic templates with fields like `title`, `date`, etc.
 - Integrates with QuickAdd.
 - Set your Templater folder to `.obsidian/templates/`.
 
-### ✅ Dataview
+### Dataview
+
 - Query and display note properties (frontmatter).
 - Used for dynamic `_index.md` folder dashboards.
 
@@ -21,23 +23,27 @@ from "02_Hardware/Devices"
 where file.name != "_index"
 ```
 
-### ✅ QuickAdd
+### QuickAdd
+
 - Easily create templated notes in the right folder.
 - Configure with the included `quickadd.json`.
 
-### ✅ Calendar + Periodic Notes
+### Calendar + Periodic Notes
+
 - Adds a visual calendar to log and track daily or weekly maintenance.
 - Periodic Notes integrates with Calendar for structured journaling.
 
 ---
 
-## 🔐 Security & Credentials
+## Security & Credentials
 
-### ✅ Obsidian Encrypt / Safe / Vault
+### Obsidian Encrypt / Safe / Vault
+
 - Encrypt notes individually.
 - Recommended for `00_Credentials/` folder.
 
-### ✅ Obsidian Git
+### Obsidian Git
+
 - Sync your vault to a private repository.
 - Add this to `.gitignore`:
   ```
@@ -46,13 +52,15 @@ where file.name != "_index"
 
 ---
 
-## 🛠️ Technical Utilities
+## Technical Utilities
 
-### ✅ Advanced Tables
+### Advanced Tables
+
 - Makes table editing easier.
 - Use for inventory, network maps, etc.
 
-### ✅ Shell Commands
+### Shell Commands
+
 - Run scripts like:
   - `uptime`
   - `docker ps`
@@ -60,34 +68,41 @@ where file.name != "_index"
 
 ---
 
-## 💻 Developer Experience
+## Developer Experience
 
-### ✅ Code Block Enhancer
+### Code Block Enhancer
+
 - Adds:
   - Syntax highlighting
   - Line numbers
   - Copy buttons
 
-### ✅ Markdown Formatting Assistant
+### Markdown Formatting Assistant
+
 - Helps with bold, links, callouts, etc.
 
-### ✅ Tag Wrangler
+### Tag Wrangler
+
 - Rename, delete, and merge tags used across the vault.
 
 ---
 
-## 🧩 Optional UI Enhancements
+## Optional UI Enhancements
 
-### ✅ Homepage
+### Homepage
+
 - Auto-loads a start page (`_index.md`) when opening the vault.
 
-### ✅ Sliding Panes
+### Sliding Panes
+
 - Better tabbed layout, similar to Notion or VSCode.
 
-### ✅ Hover Editor
+### Hover Editor
+
 - Opens links in floating editor panes.
 
-### ✅ Canvas
+### Canvas
+
 - Visual planning for:
   - Rack layout
   - Network diagram
@@ -95,7 +110,7 @@ where file.name != "_index"
 
 ---
 
-## 🔧 Setup Tips
+## Setup Tips
 
 1. Place your `*.md` templates under `.obsidian/templates/HomeLab/`
 2. Configure QuickAdd to use those templates
@@ -105,9 +120,10 @@ where file.name != "_index"
 
 ---
 
-## 💬 Need More?
+## Need More?
 
 Ask me for:
+
 - Daily/Weekly note templates
 - Encrypted note automation
 - Canvas network diagram templates

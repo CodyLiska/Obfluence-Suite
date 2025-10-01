@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "05_Network/VLANs"
+from "06_Network/VLANs"
 where file.name != "_index"
 ```

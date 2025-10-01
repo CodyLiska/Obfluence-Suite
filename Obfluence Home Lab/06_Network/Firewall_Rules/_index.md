@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "05_Network/Firewall_Rules"
+from "06_Network/Firewall_Rules"
 where file.name != "_index"
 ```

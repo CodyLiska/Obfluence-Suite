@@ -1,4 +1,4 @@
-# 🏡 Obfluence HomeLab
+# Obfluence HomeLab
 
 Welcome to your **Obfluence HomeLab** — a structured, developer-centric vault designed to document, manage, and scale all aspects of your self-hosted infrastructure, software experimentation, learning, and systems automation.
 
@@ -6,7 +6,7 @@ This vault uses a Confluence-inspired structure combined with the power of Obsid
 
 ---
 
-## 📁 Folder Overview
+## Folder Overview
 
 ### `01_Overview/`
 
@@ -98,7 +98,7 @@ Versioned updates to your lab — hardware changes, deployments, upgrades.
 
 ### `99_Credentials/`
 
-🔐 **Sensitive metadata only** — passwords and keys should be stored in a secure password manager (e.g., 1Password, Bitwarden).
+**Sensitive metadata only** — passwords and keys should be stored in a secure password manager (e.g., 1Password, Bitwarden).
 
 - `API Keys/`
 - `Service Accounts/`
@@ -109,7 +109,7 @@ Versioned updates to your lab — hardware changes, deployments, upgrades.
 
 ---
 
-## ⚙️ Suggested Plugins
+## Suggested Plugins
 
 - **Templater** – Auto-generating structured notes
 - **Dataview** – Table/list summaries for `_index.md` dashboards
@@ -121,7 +121,7 @@ Versioned updates to your lab — hardware changes, deployments, upgrades.
 
 ---
 
-## 📌 Usage Tips
+## Usage Tips
 
 - Use `_index.md` in each folder to dynamically show child notes using `Dataview`.
 - Templates ensure every note has standard fields like title, tags, description, and date.

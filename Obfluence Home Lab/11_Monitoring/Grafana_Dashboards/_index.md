@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "10_Monitoring/Grafana_Dashboards"
+from "11_Monitoring/Grafana_Dashboards"
 where file.name != "_index"
 ```

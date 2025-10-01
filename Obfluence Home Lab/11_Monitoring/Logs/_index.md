@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "10_Monitoring/Logs"
+from "11_Monitoring/Logs"
 where file.name != "_index"
 ```

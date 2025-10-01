@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "12_Changelogs"
+from "13_Changelogs"
 where file.name != "_index"
 ```

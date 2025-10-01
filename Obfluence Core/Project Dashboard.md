@@ -6,7 +6,7 @@ This dashboard dynamically summarizes the project documentation using frontmatte
 
 ```dataview
 table status as "Status", file.link as "Project", system as "System", owner as "Owner", file.mtime as "Last Modified"
-from "DEVELOPMENT_WIKI"
+from "Obfluence Core"
 where status
 group by status
 sort file.mtime desc
@@ -16,7 +16,7 @@ sort file.mtime desc
 
 ```dataview
 table system as "System", file.link as "Project", status as "Status", owner as "Owner", file.mtime as "Last Modified"
-from "DEVELOPMENT_WIKI"
+from "Obfluence Core"
 where system
 group by system
 sort file.mtime desc
@@ -26,7 +26,7 @@ sort file.mtime desc
 
 ```dataview
 table owner as "Owner", file.link as "Project", status as "Status", system as "System", file.mtime as "Last Modified"
-from "DEVELOPMENT_WIKI"
+from "Obfluence Core"
 where owner
 group by owner
 sort file.mtime desc
@@ -36,7 +36,7 @@ sort file.mtime desc
 
 ```dataview
 table file.link as "Project", status as "Status", system as "System", owner as "Owner", file.mtime as "Last Modified"
-from "DEVELOPMENT_WIKI"
+from "Obfluence Core"
 sort file.mtime desc
 limit 10
 ```

@@ -2,7 +2,7 @@
 
 This vault is designed to help you organize and manage every aspect of your personal life with structure, consistency, and clarity.
 
-## 📁 Folder Structure
+## Folder Structure
 
 - `01_Journal/`: Daily, weekly, and monthly logs.
 - `02_Health/`: Fitness routines, nutrition tracking, medical records.
@@ -15,32 +15,38 @@ This vault is designed to help you organize and manage every aspect of your pers
 - `09_Education/`: Learning materials, reading logs, and course notes.
 - `10_Misc/`: Ideas, dreams, and life bucket list.
 
-## 🔌 Recommended Plugins
+## Recommended Plugins
 
-### 🧠 Organization & Templates
+### Organization & Templates
+
 - **Templater** – Dynamic templates with variables and date handling.
 - **QuickAdd** – Fast capture with custom prompts and folder targeting.
 - **Periodic Notes** – Supports Daily, Weekly, and Monthly journals.
 - **Calendar** – Works with Periodic Notes for visual navigation.
 
-### 📊 Data Management
+### Data Management
+
 - **Dataview** – Query and display metadata like databases.
 - **Tag Wrangler** – Clean up and organize tags.
 
-### 📚 Productivity
+### Productivity
+
 - **Kanban** – Visualize tasks for personal or home projects.
 - **Review** – For spaced repetition of goals and important notes.
 
-### ✨ UI and Quality of Life
+### UI and Quality of Life
+
 - **Advanced Tables** – Easy editing of markdown tables.
 - **Sliding Panes** – Notion-style horizontal tab layout.
 - **Homepage** – Load your dashboard note on vault startup.
 
-## ✅ Setup Tips
+## Setup Tips
+
 1. Use `_index.md` files in each folder with Dataview to list contents.
 2. Use QuickAdd to prompt and place notes correctly.
 3. Keep your journal consistent with Periodic Notes.
 4. Encrypt sensitive content with Obsidian Encrypt.
 
-## 🧩 Templates
+## Templates
+
 All templates are stored in the `_templates` folder and organized by category and subfolder name to match the vault structure.

@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "09_Security/Hardening_Checklists"
+from "10_Security/Hardening_Checklists"
 where file.name != "_index"
 ```

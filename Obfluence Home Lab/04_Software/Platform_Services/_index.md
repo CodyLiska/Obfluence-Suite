@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "03_Software/Platform_Services"
+from "04_Software/Platform_Services"
 where file.name != "_index"
 ```

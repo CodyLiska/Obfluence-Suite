@@ -4,13 +4,13 @@
 <h1 align="center">Obfluence</h1>
 <p align="center"><em>Developer-centric knowledge architecture for Obsidian</em></p>
 
-# 🧩 Development Wiki Templates
+# Obfluence Core Templates
 
 This directory contains standardized templates organized by documentation category. Each folder corresponds to a core area of your software project documentation, and includes Templater-ready markdown files that help ensure consistency, structure, and speed.
 
 ---
 
-## 📁 Folder Overview
+## Folder Overview
 
 Each numbered folder corresponds to a major section in the documentation system:
 
@@ -32,14 +32,14 @@ Each folder contains:
 
 ---
 
-## 📊 Visual Overview
+## Visual Overview
 
 - [Folder Structure Chart (PNG)](/Obfluence%20Templates/README_TEMPLATES_Folder_Chart.png)
 - [Mind Map (Markdown)](/Obfluence%20Templates/README_TEMPLATES_Mindmap.md)
 
 ---
 
-## 🛠 Template Metadata Guidelines
+## Template Metadata Guidelines
 
 Each template should start with frontmatter like:
 
@@ -56,7 +56,7 @@ Use consistent tags like `product`, `infra`, `scrum`, `release`, etc.
 
 ---
 
-## ✅ Best Practices
+## Best Practices
 
 - Use `_index.md` in each folder to preview templates dynamically.
 - Maintain a central dashboard for high-level access and search.

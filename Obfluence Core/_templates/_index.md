@@ -1,6 +1,7 @@
-# Development Wiki Templates Index
+# Obfluence Core Templates Index
+
 ```dataviewjs
-const root = "98__obsidian templates/Development Wiki Templates";
+const root = "98__obsidian templates/Obfluence Core/_templates";
 const pages = dv.pages()
   .where(p => p.file.path.startsWith(root + "/") && !["_index", "index"].includes(p.file.name))
   .array();
@@ -31,7 +32,7 @@ function renderTree(tree, depth = 1) {
   const clean = key.replace(/[_-]/g, " ");
   const folderHeader = dv.container.createEl("h" + (depth + 1));
   folderHeader.setAttr("style", `margin-left: ${depth * 20}px;`);
-  folderHeader.textContent = `🧩 ${clean}`;
+  folderHeader.textContent = `folder header: ${clean}`;
 
   renderTree(tree[key], depth + 1);
 }

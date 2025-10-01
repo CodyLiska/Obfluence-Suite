@@ -2,6 +2,6 @@
 
 ```dataview
 list
-from "08_Automation/Scripts"
+from "09_Automation/Scripts"
 where file.name != "_index"
 ```

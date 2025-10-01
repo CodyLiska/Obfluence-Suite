@@ -1,4 +1,4 @@
-- Development Wiki Templates
+- Obfluence Core Templates
   - 00_Product Templates
     - _index.md
     - feature-spec-template.md

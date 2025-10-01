@@ -1,9 +1,9 @@
-# 📁 Operations Index
+# Operations Index
 
 > This index provides a structured overview of all operational documentation, including CI/CD processes, infrastructure standards, readiness checklists, and incident protocols. Folder contents and descriptions are pulled dynamically from frontmatter where available.
 
 ```dataviewjs
-const root = "DEVELOPMENT_WIKI/03_Operations";
+const root = "Obfluence Core/03_Operations";
 
 const pages = dv.pages()
   .where(p => p.file.path.startsWith(root + "/") && !["_index", "index"].includes(p.file.name))
@@ -22,7 +22,7 @@ for (const page of pages) {
 // Render each folder
 for (const folder of Object.keys(folders).sort()) {
   const cleanName = folder.replace(/[_-]/g, " ");
-  dv.header(3, `📁 ${cleanName}`);
+  dv.header(3, `folder: ${cleanName}`);
 
   const files = folders[folder]
     .filter(p => !["_index", "index"].includes(p.file.name))

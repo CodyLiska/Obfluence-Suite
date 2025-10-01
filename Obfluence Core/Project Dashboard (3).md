@@ -18,7 +18,7 @@ group by contains(file.name, "_index") = false and file.name != "index"
 
 ```dataview
 table file.link as "Template", status, owner, system, file.mtime as "Updated"
-from "Development Wiki Templates"
+from "Obfluence Core/_templates"
 where file.name != "_index" and status
 sort file.mtime desc
 ```
@@ -29,7 +29,7 @@ sort file.mtime desc
 
 ```dataview
 table file.link as "Document", file.mtime as "Modified"
-from "DEVELOPMENT_WIKI"
+from "Obfluence Core"
 where file.name != "_index"
 sort file.mtime desc
 limit 10
@@ -41,7 +41,7 @@ limit 10
 
 ```dataview
 table file.link as "Doc", status, system, owner, file.mtime
-from "DEVELOPMENT_WIKI"
+from "Obfluence Core"
 where file.name != "_index" and (status or system or owner)
 sort file.mtime desc
 ```
@@ -49,6 +49,7 @@ sort file.mtime desc
 ---
 
 ## 🗂 Suggested Filters
+
 - `status:: draft`, `status:: stable`
 - `system:: product`, `system:: architecture`
 - `owner:: @you`, `owner:: @teammate`
